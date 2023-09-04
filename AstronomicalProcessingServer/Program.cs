@@ -5,6 +5,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.ServiceModel;
 
+// Raihan Khalil Abdillah
+// 30065695
+// Assessment 02 of Complex Data Structures - Astronomical Processing Project
+// 28/08/23 - 
+
 namespace AstronomicalProcessingServer
 {
     internal class Program
