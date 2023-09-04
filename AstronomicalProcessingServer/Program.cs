@@ -18,7 +18,7 @@ namespace AstronomicalProcessingServer
 
                 ServiceHost serviceHost = new ServiceHost(typeof(AstroServer));
                 NetNamedPipeBinding binding = new NetNamedPipeBinding(NetNamedPipeSecurityMode.None);
-                serviceHost.AddServiceEndpoint(typeof(AstroServer), binding, address);
+                serviceHost.AddServiceEndpoint(typeof(IAstroContract), binding, address);
                 serviceHost.Open();
 
                 Console.WriteLine("ServiceHost is running. Press <<Return>> to Exit");
